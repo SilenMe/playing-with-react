@@ -3,6 +3,7 @@ import Contact from './ContactComponent';
 import Home from './HomeComponent';
 import Menu from './MenuComponent';
 import DishDetail from './DishDetailComponent';
+import About from './AboutComponent';
 import { COMMENTS } from '../shared/comments';
 import { PROMOTIONS } from '../shared/promotions';
 import { LEADERS } from '../shared/leaders';
@@ -20,8 +21,7 @@ class Main extends Component {
         comments: COMMENTS,
         promotions: PROMOTIONS,
         leaders: LEADERS
-        
-    };
+      };
   }
 
 
@@ -44,9 +44,11 @@ class Main extends Component {
         <Header />
         <Switch>
               <Route path='/home' component={HomePage} />
+
               <Route exact path='/menu' component={() => <Menu dishes={this.state.dishes} />} />
               <Route path='/menu/:dishId' component={DishWithId} />
               <Route exact path='/contactus' component={Contact} />} />
+              <Route exact path="/aboutus" component={ () => <About leaders={this.state.leaders} /> } />
               <Redirect to="/home" />
           </Switch>
         <Footer />
