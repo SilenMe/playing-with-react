@@ -1,3 +1,34 @@
+## about the project
+
+This is a web app build using react. this a restaurant managment app with following main features:
+1. 4 pages- HOME , ABOUTUS, MENU, CONTACTUS
+2. home page contains basic info
+3. aboutus page contains basic info about workers
+4. menu contains the food items and when a item clicked you will see all the details about the item, you can see comments and also add a comment for that item by entering the rating out of 5 and you name.
+5.in contactus page you there are many resources are given as well as you can send a private feedback with a confirmation for contanting you back or not.
+# for more , go through app here
+
+
+dev. tools - react, chrome, sublime text, npm package manager, yarn, webpack etc
+
+tech. used - react, reactstrap, redux, jsx,react virtual dom, yarn, json, react router, SPA, forms(controlled and uncontrolled) , form validation client side, MVC, redux store and action, react animation etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
